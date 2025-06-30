@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VisaAtlas Başvuru</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+    input, textarea, button { width: 100%; padding: 10px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>VisaAtlas Başvuru Formu</h1>
+  <form action="mailto:anelm2027@gmail.com" method="POST" enctype="text/plain">
+    <label>Ad Soyad:</label>
+    <input type="text" name="ad" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Pasaport Numarası:</label>
+    <input type="text" name="pasaport" required>
+
+    <label>Mesajınız:</label>
+    <textarea name="mesaj"></textarea>
+
+    <button type="submit">Gönder</button>
+  </form>
+
+  <h2>Ödeme</h2>
+  <p>Lütfen aşağıdaki bağlantı üzerinden ödemeyi gerçekleştirin:</p>
+  <a href="https://wise.com/pay/me/niaran" target="_blank">
+    <button>Wise ile Öde</button>
+  </a>
+</body>
+</html>
